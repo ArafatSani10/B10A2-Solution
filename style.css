@@ -274,3 +274,119 @@ body {
 }
 
 /* extra run  related end here */
+
+
+/* bmi cal */
+.BMi-container {
+    width: 50%;
+    margin: 3rem auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.BMI-headline h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.BMI-headline p {
+    color: #ffffff;
+    opacity: 0.30;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* chart list */
+
+.chart-container {
+    width: 100%;
+    height: 500px;
+    margin: 3rem auto;
+    /* border: 2px solid red; */
+    background: rgb(34, 34, 34);
+    padding: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-content h1 {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 1rem;
+}
+
+.unique {
+    font-size: 1rem;
+}
+
+.ultra {
+    opacity: 0.40;
+}
+
+.calculate-BMI-info h1 {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.calculate-BMI-info p {
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.30;
+    margin-bottom: 35px;
+}
+
+.form input {
+    padding: 1rem 2rem 1rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    color: #fff;
+}
+
+.form select {
+
+    padding: 1rem 10rem 1rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    /* width: 00px; */
+    color: #fff;
+    opacity: 0.70;
+    margin-bottom: 35px;
+
+}
+
+#btn:hover {
+    background-color: #976262;
+    color: #fff;
+    transition: all 0.7s ease;
+
+}
+
+/* unique section  challenge part*/
