@@ -13,3 +13,159 @@ body {
     background-color: #111111;
 
 }
+
+/*navber related style start here */
+
+.navber-container {
+    width: 85%;
+    margin: 2rem auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    /* background: rgb(185,185,185); */
+}
+
+.bars {
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.logo {
+    font-size: 1.4rem;
+    color: #E6533C;
+    font-weight: 800;
+}
+
+.nav-item {
+    gap: 2.9rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 0.7rem;
+}
+
+
+.nav-item .active {
+    background: #E6533C;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 0.7rem;
+    border-radius: 2.8rem;
+    border: 1px solid white;
+    font-size: 1.125rem;
+    border: none;
+}
+
+.bars {
+    display: none;
+}
+
+.banner-container {
+    width: 85%;
+    margin: 1rem auto;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #000000, #434343, #000000);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.unique-font {
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
+.banner-title h1 {
+    color: #fff;
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+}
+
+.banner-title p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.30;
+    margin-bottom: 2rem;
+}
+
+.card {
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid #fff;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    left: 975px;
+    top: 550px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.card-2 {
+     color: white;
+    position: absolute;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid #fff;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    top: 305px;
+    left: 1220px; 
+    border: none;
+    cursor: pointer;
+
+} 
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 900;
+    opacity: 0.30;
+
+}
+
+.card-2 h1 {
+    font-size: 2.3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    border: none;
+
+}
+
+.card-2 p {
+    font-size: 0.9rem;
+    font-weight: 900;
+    opacity: 0.30;
+    text-align: center;
+}
+/* banner end */
