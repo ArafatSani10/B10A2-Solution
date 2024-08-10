@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +15,6 @@
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:wght@100..900&family=Playwrite+DK+Loopet:wght@100..400&family=Poor+Story&display=swap"
         rel="stylesheet">
 </head>
-
 <!-- nav bar coding style start -->
 <div class="navber-container">
     <div class="logo">
@@ -151,27 +149,35 @@
     <div class="calculate-BMI-info">
         <h1>Calculate Your BMI</h1>
         <p>Try this nutrition tracker on AskNestle to keep track of your children's diet & nutrition.</p>
-        <div class="form">
-            <form action="">
-                <input type="text" name="" id="" placeholder="Height/cm">
-                <input type="text" placeholder="Weight/Kg">
-            </form>
-            <form action="">
-                <input type="text" placeholder="age">
+        <div class="input-container">
+            <div class="grid-input">
+                <div class="input-height">
+                    <input type="text" placeholder="Height/cm">
+
+                </div>
+                <div class="weight">
+                    <input type="text" placeholder="Weight/kg">
+                </div>
+                <div class="input-age">
+                    <input type="text" placeholder="Age">
+                </div>
+                <div class="input-sex">
+                    <!-- <input type="text " placeholder="Sex"> -->
+                    <select name="" id="">
+                        <option value=""> Sex</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="select">
+                <!-- <input type="text" placeholder="Select an activity factor"> -->
                 <select name="" id="">
-                    <option value="sex">
-                        Sex
-                    </option>
+                    <option value="">Select an activity factor </option>
                 </select>
-            </form>
-            <form action="">
-                <select name="" id="">
-                    <option value="Select and activity factor">
-                        Select and activity factor
-                    </option>
-                </select>
-            </form>
-            <button id="btn">calculate</button>
+            </div>
+            <div id="btn-sm">
+                calculate
+            </div>
         </div>
     </div>
 </section>
@@ -233,5 +239,40 @@
 </section>
 <!-- main section coding style end-- -->
 
+<!-- footer section to do -->
+
+<footer>
+    <section class="footer-container">
+        <div class="footer-content">
+            <h1><i>Fitness</i></h1>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Qui sint nostrum consequatur tenetur
+                soluta <br> maxime nihil expedita illum eaque ea.</h4>
+        </div>
+        <!-- orderd list -->
+        <div class="order-list">
+            <li>
+                <h1>Get Started</h1>
+                <ul>Services</ul>
+                <ul>Contact Us</ul>
+                <ul>Affliate Program</ul>
+                <ul>About Us</ul>
+            </li>
+        </div>
+        <div class="order-list">
+            <li>
+                <h1>Get Started</h1>
+                <ul>Fitness</ul>
+                <ul>Plartform</ul>
+                <ul>Workout Libary</ul>
+                <ul>App Design</ul>
+            </li>
+        </div>
+    </section>
+    <div class="horizontal">
+        <hr />
+        <p>All right reserved @Fitness 2024</p>
+    </div>
+</footer>
+<!-- footer section done. -->
 
 <body>
