@@ -73,9 +73,11 @@ body {
     margin: 1rem auto;
     height: auto;
     margin: 0 auto;
-    background: linear-gradient(to bottom, #000000, #434343, #000000);
+    /* background: linear-gradient(to bottom, #000000, #434343, #000000); */
+    background: linear-gradient(to bottom, #181616,#282727, #0e0b0b );
     display: flex;
     justify-content: space-between;
+    border: none;
 
 }
 
@@ -96,6 +98,9 @@ body {
     opacity: 0.30;
     margin-bottom: 2rem;
 }
+.image{
+    position: relative;
+}
 
 .card {
     color: white;
@@ -105,8 +110,8 @@ body {
     border: 1px solid #fff;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    left: 975px;
-    top: 550px;
+    left: -35px;
+    top: 400px;
     border: none;
     cursor: pointer;
 
@@ -116,12 +121,12 @@ body {
     color: white;
     position: absolute;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 1rem;
     border: 1px solid #fff;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    top: 305px;
-    left: 1220px;
+    top: 70px;
+    right: -5px;
     border: none;
     cursor: pointer;
 
@@ -157,15 +162,17 @@ body {
 }
 
 .card-2 h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 900;
     margin-bottom: 10px;
     border: none;
+    /* text-align: center; */
+    /* padding: 1rem 0.9rem; */
 
 }
 
 .card-2 p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 900;
     opacity: 0.30;
     text-align: center;
@@ -378,8 +385,6 @@ td {
     margin-bottom: 30px;
 }
 
-
-
 .grid-input {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -549,6 +554,7 @@ td {
     background: rgba(255, 255, 255, 0.1);
     gap: 2.5rem;
     margin: 1rem 0;
+  
 }
 
 .team-container img {
@@ -662,6 +668,7 @@ hr {
     width: 70%;
     margin: 0 auto;
     margin-top: -90px;
+    opacity: 0.40;
 
 }
 
@@ -690,12 +697,23 @@ hr {
         gap: 15px;
     }
 
-    .card {
-        display: none;
+    .card-2 {
+        display: block;
+        position: absolute
+        ;
+        top: 55px;
+        left: 210px;
+        /* padding: 1rem; */
     }
 
-    .card-2 {
-        display: none;
+    .card {
+        display: block;
+        position: absolute;
+        top: 240px;
+        left: 15px;
+    }
+    .image{
+        position: relative;
     }
 
     .btn {
@@ -731,7 +749,7 @@ hr {
     }
 
     .BMI-headline {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .BMI-headline h1 {
@@ -829,7 +847,8 @@ hr {
     .chart-container {
         width: 100%;
         align-items: flex-start;
-        height: 210vh;
+        /* height: 210vh; */
+        height: auto;
         flex-direction: column;
         padding: 2rem;
         justify-content: center;
@@ -856,15 +875,14 @@ hr {
         font-size: 0.9rem;
         margin-bottom: 80px;
     }
-
-    .input-height input {
+     .input-height input {
         background: rgba(255, 255, 255, 0.1);
         padding: 10px 20px 5px;
         border-radius: 100px;
         border: none;
         margin: 10px;
         color: #fff;
-    }
+    } 
 
     .input-height input {
         background: rgba(255, 255, 255, 0.1);
@@ -876,7 +894,7 @@ hr {
 
     }
 
-    
+
 
     .weight input {
         background: rgba(255, 255, 255, 0.1);
@@ -952,8 +970,9 @@ hr {
         display: grid;
         text-align: center;
         grid-template-columns: 1fr;
+    
+        
     }
-
     .unique-container {
         height: auto;
         flex-direction: column;
@@ -981,6 +1000,7 @@ hr {
     hr {
         width: 100%;
         margin-bottom: -10px;
+        opacity: 0.40;
     }
 
     .order-list {
